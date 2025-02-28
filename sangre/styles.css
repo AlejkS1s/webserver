@@ -1,15 +1,94 @@
+:root {
+    --bs-primary: #06484e;
+    --bs-secondary: #bac8d3;
+    --bs-success: #28a745;
+    --bs-danger: #dc3545;
+    --bs-warning: #ffc107;
+    --bs-info: #17a2b8;
+    --bs-light: #f8f9fa;
+    --bs-dark: #343a40;
+}
+
+
+.navbar-brand {
+    padding: 0 24px;
+}
+
+.navbar {
+    height: 64px;
+}
+
+.business-label {
+    font-family: 'Source Sans Pro', sans-serif;
+    padding: 26px;
+    color: var(--bs-secondary);
+    font-weight: 800;
+    font-size: 22px;
+    line-height: 16px;
+}
+
+.title-bold {
+    font-family: 'Source Sans Pro', sans-serif;
+    font-weight: 700;
+    color: var(--bs-primary);
+}
+
+
+/* Enhanced input styling */
+.form-control {
+    padding: 12px;
+    height: auto;
+    font-size: 1.1rem;
+}
+
+/* Larger number input arrows */
+input[type="number"] {
+    padding-right: 10px;
+}
+
+/* Custom section styling */
+.form-section {
+    background-color: #f8f9fa;
+    border-radius: 15px;
+    padding: 20px;
+    margin-bottom: 25px;
+    border: 1px solid #dee2e6;
+    box-shadow: 0 0.125rem 0.25rem rgba(0, 0, 0, 0.075);
+}
+
+.section-title {
+    color: var(--bs-primary);
+    padding-bottom: 10px;
+    margin-bottom: 20px;
+}
+
+/* Better button styling */
+.btn-analyze {
+    padding: 12px;
+    font-size: 1.2rem;
+    font-weight: 600;
+    border-radius: 10px;
+}
+
+/* Better form text */
+.form-text {
+    font-size: 0.9rem;
+    margin-top: 5px;
+    color: #6c757d;
+}
+
 .footer {
     object-fit: fill;
-    background-color: #f5f7fa;
+    background-color: var(--bs-light);
     border-bottom: 1px solid #e4ebf3;
     flex-flow: column;
     margin: 0;
     padding: 39px 15px 15px;
     display: flex;
     position: relative;
-    bottom: 0%;
-    left: 0%;
-    right: 0%;
+    bottom: 0;
+    left: 0;
+    right: 0;
     overflow: hidden;
 }
 
@@ -65,7 +144,7 @@
 .footer-link {
     margin-top: 12px;
     margin-bottom: 6px;
-    color: #1a1b1f;
+    color: var(--bs-dark);
     font-size: 14px;
     line-height: 16px;
     text-decoration: none;
@@ -125,7 +204,7 @@
     }
 
     .footer-link:hover {
-        color: #1a1b1fbf;
+        color: var(--bs-dark);
     }
 
     .footer-social-block {

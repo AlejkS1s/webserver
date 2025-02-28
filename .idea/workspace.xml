@@ -4,12 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="0777d7e8-5943-447e-afac-802ee8be5dad" name="Changes" comment="added content">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/html_page/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/html_page/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sangre/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/sangre/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sangre/styles.css" beforeDir="false" afterPath="$PROJECT_DIR$/sangre/styles.css" afterDir="false" />
-    </list>
+    <list default="true" id="0777d7e8-5943-447e-afac-802ee8be5dad" name="Changes" comment="add medical form and validation script" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -19,9 +14,9 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="HTTP Request" />
+        <option value="CSS File" />
         <option value="JavaScript File" />
         <option value="HTML File" />
-        <option value="CSS File" />
       </list>
     </option>
   </component>
@@ -31,8 +26,23 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;AlejkS1s&quot;
+  }
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/AlejkS1s/webserver.git&quot;,
+    &quot;accountId&quot;: &quot;bde51d47-f2e6-41fd-bc03-1257136a3199&quot;
+  }
+}</component>
   <component name="HttpClientSelectedEnvironments">
     <file url="file:///tmp/whats-new-dir/whats-new.http" environment="test" />
+  </component>
+  <component name="LLMProjectSettings">
+    <option name="turned_on" value="false" />
   </component>
   <component name="OptimizeOnSaveOptions">
     <option name="myRunOnSave" value="true" />
@@ -51,7 +61,9 @@
     &quot;ASKED_SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
     &quot;DefaultHtmlFileTemplate&quot;: &quot;HTML File&quot;,
     &quot;JavaScript Debug.example.html.executor&quot;: &quot;Run&quot;,
+    &quot;JavaScript Debug.index.html.executor&quot;: &quot;Run&quot;,
     &quot;Node.js.index.js.executor&quot;: &quot;Run&quot;,
+    &quot;Node.js.resultsValidator.js.executor&quot;: &quot;Debug&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
     &quot;WebServerToolWindowPanel.toolwindow.highlight.mappings&quot;: &quot;true&quot;,
@@ -69,7 +81,7 @@
     &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
     &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
     &quot;rearrange.code.on.save&quot;: &quot;true&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;reference.settings.ide.settings.web.browsers&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;,
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
 }</component>
@@ -107,6 +119,11 @@
       <workItem from="1740174271260" duration="1190000" />
       <workItem from="1740414761222" duration="7387000" />
       <workItem from="1740431002612" duration="2306000" />
+      <workItem from="1740447011979" duration="407000" />
+      <workItem from="1740574163742" duration="35000" />
+      <workItem from="1740596491047" duration="4972000" />
+      <workItem from="1740746641009" duration="2672000" />
+      <workItem from="1740749341459" duration="1292000" />
     </task>
     <task id="LOCAL-00001" summary="added content">
       <option name="closed" value="true" />
@@ -116,7 +133,23 @@
       <option name="project" value="LOCAL" />
       <updated>1740146624318</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="updated the structure of main page">
+      <option name="closed" value="true" />
+      <created>1740447060975</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1740447060976</updated>
+    </task>
+    <task id="LOCAL-00003" summary="add medical form and validation script">
+      <option name="closed" value="true" />
+      <created>1740750616916</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1740750616916</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -135,6 +168,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="added content" />
-    <option name="LAST_COMMIT_MESSAGE" value="added content" />
+    <MESSAGE value="updated the structure of main page" />
+    <MESSAGE value="add medical form and validation script" />
+    <option name="LAST_COMMIT_MESSAGE" value="add medical form and validation script" />
   </component>
 </project>
