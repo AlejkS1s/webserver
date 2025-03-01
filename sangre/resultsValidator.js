@@ -74,7 +74,7 @@ function displayResults(data) {
     recommendations.className = "mt-4 p-3 border rounded";
     recommendations.innerHTML = `<h3>Recomendaciones</h3>
         <p>${generateRecommendations(data)}</p>
-        <button class="btn btn-primary w-25 mt-3" id="back-btn">Volver al formulario</button>`;
+        <button class="btn btn-primary w-25 mt-4" id="back-btn">Volver al formulario</button>`;
 
     resultsContainer.appendChild(recommendations);
 
@@ -83,10 +83,17 @@ function displayResults(data) {
     document.body.insertBefore(resultsContainer, footer);
 
     // Event listener to back button
-    document.getElementById("back-btn").addEventListener("click", () => {
+    const back_btn = document.getElementById("back-btn");
+
+    back_btn.addEventListener("click", () => {
         document.getElementById("results-container").remove();
         form.style.display = "block";
     });
+
+    back_btn.style.padding = "12px";
+    back_btn.style.fontSize = "1.2rem";
+    back_btn.style.fontWeight = "600";
+    back_btn.style.borderRadius = "10px";
 }
 
 function createResultRow(parameter, value, reference, interpretation) {
