@@ -7,7 +7,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="0777d7e8-5943-447e-afac-802ee8be5dad" name="Changes" comment="enhance blood chemistry form with improved layout and placeholder text">
+    <list default="true" id="0777d7e8-5943-447e-afac-802ee8be5dad" name="Changes" comment="added content">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/html_page/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/html_page/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/sangre/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/sangre/index.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -64,34 +66,31 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "ASKED_SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "DefaultHtmlFileTemplate": "HTML File",
-    "JavaScript Debug.example.html.executor": "Run",
-    "JavaScript Debug.index.html.executor": "Debug",
-    "Node.js.index.js.executor": "Run",
-    "Node.js.resultsValidator.js.executor": "Debug",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "RunOnceActivity.git.unshallow": "true",
-    "WebServerToolWindowPanel.toolwindow.highlight.mappings": "true",
-    "WebServerToolWindowPanel.toolwindow.highlight.symlinks": "true",
-    "WebServerToolWindowPanel.toolwindow.show.date": "false",
-    "WebServerToolWindowPanel.toolwindow.show.permissions": "false",
-    "WebServerToolWindowPanel.toolwindow.show.size": "false",
-    "code.cleanup.on.save": "true",
-    "git-widget-placeholder": "main",
-    "last_opened_file_path": "/mnt/Data2/webserver",
-    "list.type.of.created.stylesheet": "CSS",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "rearrange.code.on.save": "true",
-    "run.code.analysis.last.selected.profile": "pProject Default",
-    "settings.editor.selected.configurable": "com.github.copilot.settings.ApplicationConfigurable",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ASKED_SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;DefaultHtmlFileTemplate&quot;: &quot;HTML File&quot;,
+    &quot;JavaScript Debug.example.html.executor&quot;: &quot;Run&quot;,
+    &quot;Node.js.index.js.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowPanel.toolwindow.highlight.mappings&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowPanel.toolwindow.highlight.symlinks&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowPanel.toolwindow.show.date&quot;: &quot;false&quot;,
+    &quot;WebServerToolWindowPanel.toolwindow.show.permissions&quot;: &quot;false&quot;,
+    &quot;WebServerToolWindowPanel.toolwindow.show.size&quot;: &quot;false&quot;,
+    &quot;code.cleanup.on.save&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/mnt/Data2/webserver&quot;,
+    &quot;list.type.of.created.stylesheet&quot;: &quot;CSS&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;rearrange.code.on.save&quot;: &quot;true&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;reference.settings.ide.settings.web.browsers&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
 }]]></component>
   <component name="RunManager">
@@ -133,14 +132,6 @@
       <workItem from="1740174271260" duration="1190000" />
       <workItem from="1740414761222" duration="7387000" />
       <workItem from="1740431002612" duration="2306000" />
-      <workItem from="1740447011979" duration="407000" />
-      <workItem from="1740574163742" duration="35000" />
-      <workItem from="1740596491047" duration="4972000" />
-      <workItem from="1740746641009" duration="2672000" />
-      <workItem from="1740749341459" duration="1455000" />
-      <workItem from="1740798767107" duration="194000" />
-      <workItem from="1740798976115" duration="305000" />
-      <workItem from="1740799294492" duration="6468000" />
     </task>
     <task id="LOCAL-00001" summary="added content">
       <option name="closed" value="true" />
@@ -150,39 +141,7 @@
       <option name="project" value="LOCAL" />
       <updated>1740146624318</updated>
     </task>
-    <task id="LOCAL-00002" summary="updated the structure of main page">
-      <option name="closed" value="true" />
-      <created>1740447060975</created>
-      <option name="number" value="00002" />
-      <option name="presentableId" value="LOCAL-00002" />
-      <option name="project" value="LOCAL" />
-      <updated>1740447060976</updated>
-    </task>
-    <task id="LOCAL-00003" summary="add medical form and validation script">
-      <option name="closed" value="true" />
-      <created>1740750616916</created>
-      <option name="number" value="00003" />
-      <option name="presentableId" value="LOCAL-00003" />
-      <option name="project" value="LOCAL" />
-      <updated>1740750616916</updated>
-    </task>
-    <task id="LOCAL-00004" summary="add medical form and validation script">
-      <option name="closed" value="true" />
-      <created>1740750791949</created>
-      <option name="number" value="00004" />
-      <option name="presentableId" value="LOCAL-00004" />
-      <option name="project" value="LOCAL" />
-      <updated>1740750791949</updated>
-    </task>
-    <task id="LOCAL-00005" summary="enhance blood chemistry form with improved layout and placeholder text">
-      <option name="closed" value="true" />
-      <created>1740805744283</created>
-      <option name="number" value="00005" />
-      <option name="presentableId" value="LOCAL-00005" />
-      <option name="project" value="LOCAL" />
-      <updated>1740805744283</updated>
-    </task>
-    <option name="localTasksCounter" value="6" />
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -201,9 +160,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="added content" />
-    <MESSAGE value="updated the structure of main page" />
-    <MESSAGE value="add medical form and validation script" />
-    <MESSAGE value="enhance blood chemistry form with improved layout and placeholder text" />
-    <option name="LAST_COMMIT_MESSAGE" value="enhance blood chemistry form with improved layout and placeholder text" />
+    <option name="LAST_COMMIT_MESSAGE" value="added content" />
   </component>
 </project>
