@@ -1,3 +1,33 @@
+.form-section {
+    background-color: #f8f9fa;
+    border-radius: 15px;
+    padding: 20px;
+    margin-bottom: 25px;
+    border: 1px solid #dee2e6;
+    box-shadow: 0 0.125rem 0.25rem rgba(0, 0, 0, 0.075);
+}
+
+.section-title {
+    color: var(--bs-primary);
+    padding-bottom: 10px;
+    margin-bottom: 20px;
+}
+
+/* Better button styling */
+.btn-analyze {
+    padding: 12px;
+    font-size: 1.2rem;
+    font-weight: 600;
+    border-radius: 10px;
+}
+
+/* Better form text */
+.form-text {
+    font-size: 0.9rem;
+    margin-top: 5px;
+    color: #6c757d;
+}
+
 .footer {
     object-fit: fill;
     background-color: var(--bs-light);
