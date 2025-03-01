@@ -28,6 +28,7 @@ function displayResults(data) {
     // Create results container
     const resultsContainer = document.createElement("div");
     resultsContainer.className = "container border p-4 rounded shadow mt-4 mb-4";
+    resultsContainer.id = "results-container";
 
     // Add header
     const header = document.createElement("div");
