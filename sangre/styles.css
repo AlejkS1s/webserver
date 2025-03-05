@@ -9,6 +9,14 @@
     --bs-dark: #343a40;
 }
 
+* {
+    box-sizing: border-box;
+}
+
+body {
+    max-width: 100%;
+}
+
 .hero-block {
 
 }
@@ -38,15 +46,16 @@
 }
 
 .navbar {
-    height: 64px;
+    padding: 20px 0;
+    max-width: 100vh;
 }
 
 .business-label {
     font-family: 'Source Sans Pro', sans-serif;
-    padding: 26px;
+    padding: 26px 0;
     color: var(--bs-secondary);
     font-weight: 800;
-    font-size: 22px;
+    font-size: 18px;
     line-height: 16px;
 }
 
@@ -268,6 +277,7 @@ input[type="number"] {
     margin-left: auto;
     margin-right: auto;
     text-align: center;
+    min-width: 18vh;
 }
 
 .btn-primary:hover {
